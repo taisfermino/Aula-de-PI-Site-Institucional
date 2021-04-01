@@ -1,0 +1,183 @@
+    /* estilização geral */
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+    .container {
+      max-width: 1280px; 
+      height: 100%;
+      margin: 0 auto;
+    }
+
+
+    /* estilização do header */
+    .navbar {
+      padding-top: 20px;
+      background: #845de7;
+      width: 100%;
+      height: 80px;
+      box-shadow: 0px 5px orangered;
+    }
+
+    .navbar h3 {
+      font-size: 20px;
+      font-weight: bold;
+      float: left;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .navbar nav {
+      float: right;
+    }
+
+    ul {
+      list-style: none;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+    }
+
+    ul li {
+      color: white;
+      display: inline;
+      margin-left: 25px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    li:hover{
+        color: #402978;
+    }
+    /* fim da estilização do header */
+
+
+    /* estilização do slider */
+  .apresentacao{
+    text-align: center;
+    background-size: cover;
+    background-image: url("../img/slider.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  .apresentacao p {
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .container .titulo-slider{
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+  }
+  /* fim da estilização do slider */
+
+
+  /* estilização da parte de atualização */
+  .new {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 80px;
+    background-color: #9974f6;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .new h1 {
+    margin: 0;
+    float: left;
+  }
+
+  .new .newsletter {
+    float: right;
+  }
+
+  .new input {
+    height: 25px;
+    width: 225px;
+  }
+
+  .btn-orange {
+    background-color: #402978;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 60px;
+    height: 30px;
+  }
+
+  input{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border: #402978 solid; 
+    border-radius: 5px;
+  }
+  /* fim da estilização da atualização */
+
+
+  /* estilização da parte sobre */
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .conteudo{
+    margin: 70px;
+  }
+
+  .circle img{
+    width: 200px;
+    border-radius: 200px;
+  }
+
+  .circle{
+    text-align: center;
+  }
+
+  .subtitulo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #232323;
+  }
+
+  .desc{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #232323;
+    text-align: center;
+    
+  }
+  /* fim da estilização sobre */
+
+  /* estilização do footer */
+  footer{
+    text-align: center;
+    background-color: #d7d9f7;
+    margin: 0;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    height: 80px;
+  }
+
+  footer p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #232323c2;
+    font-weight: bold;
+  }
+  .container-footer{
+    max-width: 1280px; 
+    margin: 0 auto;
+  }
+  /* fim da estilização do footer */
